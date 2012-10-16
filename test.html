@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8" />
+<title>HTML5サンプル</title>
+<link rel="stylesheet" href="style.css" />
+<script type="text/javascript">
+function textOnClick(){
+	alert(document.test.text.value);
+}
+</script>
+</head>
+<body>
+<!--
+<div id="wrapper">
+<header>
+ヘッダー
+</header>
+<article>
+	<h1>見出しじゃけん</h1>
+	<h2>小見出しじゃけん</h2>
+	<p>メガネメガネメガネメガネメガネメガネメガネメガネ<br />
+		メガネメガネメガネメガネメガネメガネメガネメガネ</p>
+	<h2>小見出し２</h2>
+	<p>メガネメガネメガネメガネメガネメガネメガネメガネ<br />
+		メガネメガネメガネメガネメガネメガネメガネメガネ</p>
+</article>
+<footer>
+フッター
+</footer>
+</div>
+-->
+<form name="test">
+入力：<input name="text" placeholder="何か入れてね" /><br />
+<button type=button onclick="textOnClick()" >送信</button>
+</form>
+</body>
